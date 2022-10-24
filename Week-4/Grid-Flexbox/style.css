@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,400;1,900&family=Lexend+Deca&family=Nunito:wght@700&family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lato:ital,wght@0,400;1,400;1,900&family=Lexend+Deca&family=Nunito:wght@700&family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+
+.flex-utility {
+  width: 17rem;
+  height: 26rem;
+  padding: 50px;
+}
+
+.flex-container {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container button {
+  padding: 12px;
+  width: 120px;
+  border-radius: 20px;
+  margin-top: 2rem;
+  border: none;
+}
+
+h1 {
+  line-height: 6rem;
+  font-family: "Big Shouldders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+}
+
+p,
+button {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.sedans button {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suvs button {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+.link-button {
+  display: flex;
+  height: 2rem;
+  padding-inline: 0.7rem;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  background-color: #00000041;
+}
+
+button a {
+  text-decoration: none;
+  color: #025;
+}
+
+.flex-container button:hover {
+  background-color: transparent;
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+  .flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-block: 1rem;
+  }
+  .sedans {
+    border-radius: 10px 10px 0px 0px;
+  }
+  .luxury {
+    border-radius: 0px 0px 10px 10px;
+  }
+  .link-button {
+    margin-top: 130vh;
+  }
+}
