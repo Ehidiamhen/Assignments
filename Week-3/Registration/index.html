@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="CSS/registration.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav>
+        <h1>EHIZ</h1>
+        <ul class="navigation">
+          <li><a href="index.html" class="nav-link">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="index.html">REGISTER</a></li>
+          <li><a href="login.html">LOGIN</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Sign up on our Platform</h1>
+      <!-- Registration Form -->
+      <form action="">
+        <div class="form-control">
+          <label for="firstname">Firstname</label><br />
+          <input
+            type="text"
+            name="Fname"
+            placeholder="Firstname"
+            class="input-field"
+            required
+          />
+        </div>
+        <div class="form-control">
+          <label for="lastname">Lastname</label><br />
+          <input
+            type="text"
+            name="Lname"
+            placeholder="Lastname"
+            class="input-field"
+            required
+          />
+        </div>
+        <div class="form-control">
+            <label for="phone">Phone Number</label>
+            <input 
+            type="number" 
+            name="phone" 
+            id="phone"
+            placeholder="+234-123-456-7890"
+            pattern="[+]{1}[0-9]{11, 14} " 
+            class="input-field" 
+            required
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">Email Address</label><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="example@domain.com"
+            class="input-field"
+            required
+          />
+        </div>
+        <div class="form-control">
+          <label for="Gender">Choose Your Gender:</label><br />
+          <select name="gender" id="gender" class="select" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <label for="date of birth">Input Your Date of Birth</label><br />
+          <input type="date" name="birth" id="birth" required />
+        </div>
+        <div class="form-control">
+          <label for="color">Select Your Favorite Color</label><br />
+          <input type="color" name="color" id="color" />
+        </div>
+        <div class="form-control">
+          <button type="submit">Register</button>
+        </div>
+      </form>
+      <!-- Subscript -->
+      <p>
+        By registering, you agree to our <a href="#">Terms and Conditions</a>
+      </p>
+      <p>Already Registered? <a href="login.html">Login here</a></p>
+    </main>
+    <footer>
+      <!-- Footer -->
+      <p class="copy">© Copyright 2022</p>
+      <p class="copy">
+        Built by
+        <a href="https://twitter.com/ehis_eleazar" target="_blank"
+          >Aigbiluese Ehidiamhen</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

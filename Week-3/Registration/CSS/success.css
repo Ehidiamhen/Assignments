@@ -1,0 +1,11 @@
+.success {
+  height: 31rem;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  width: 50%;
+}

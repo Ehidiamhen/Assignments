@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #025;
+}
+
+p a {
+  color: #4756df;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #025;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: #fcfcfc;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  transition: 0.3s;
+}
+
+nav li:hover {
+  border-bottom: 2px solid rgb(21, 37, 180);
+}
+
+nav ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+nav ul li {
+  font-weight: 600;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: content-box;
+}
+
+main h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+form,
+.success {
+  box-shadow: 0px 2px 15px 2px #8b8eaf;
+  height: 53rem;
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+form div input {
+  width: 90%;
+  height: 1.5rem;
+  border: 1px solid #025;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form div input,
+select:focus {
+  border: 2px solid #025;
+}
+
+form div select {
+  height: 1.5rem;
+  border-radius: 5px;
+}
+
+form div select,
+#color {
+  width: 20%;
+  padding: 0%;
+  margin-bottom: 0%;
+}
+
+form label {
+  line-height: 2em;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.form-control {
+  padding: 1rem 0rem 1rem 2rem;
+}
+
+form input::placeholder {
+  color: #025;
+}
+
+form select {
+  color: #025;
+}
+
+.form-control:first-child {
+  padding-top: 2rem;
+}
+
+button {
+  width: 94.2%;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid #025;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+button:hover {
+  background-color: #025;
+  color: #fff;
+}
+p {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #fcfcfc;
+  padding: 0rem 0rem 1.25rem 0rem;
+  text-align: center;
+  margin: 2rem 0 0;
+  box-shadow: 0px 2px 15px 2px #8b8eaf;
+}
